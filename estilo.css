@@ -1,0 +1,139 @@
+body {
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:black;
+}
+
+header{
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.navbar{
+    align-items: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.container-flex {
+    display: flex;
+}
+
+.container-right {
+    display: flex;
+    width: 100%;
+    justify-content: end;
+    align-items: center;
+}
+
+#MenuLogo{
+    width: 150px;
+    align-self: flex-start;
+}
+
+.imglogo {
+    width: 150px;
+    height: auto;
+}
+
+.TopoNav {
+    background-color: white;
+    cursor: pointer;
+}
+
+.TopoNav a {
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+}
+
+.TopoNav a:hover {
+    background-color: white;
+    color: darkred;
+}
+
+#pesquisar {
+    border: 1 solid black;
+    display:flex;
+    align-items: center;
+    justify-content:end;
+}
+
+button {
+    height: 35px;
+    font-size: large;
+    background-color: darkred;
+    color: white;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 20px;   
+}
+
+button:hover {
+    background-color: white;
+    color: darkred;
+}
+
+.wrap-submenu {
+    background-color: #f5f5f5;
+    border-top: 1px solid #e3e3e3;
+    border-bottom: 1px solid #e3e3e3;
+    margin-top: 15px;
+}
+
+.submenu {
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    display: flex;
+    justify-content: space-between;
+    color: #e3e3e3;
+    width: 900px;
+}
+
+.submenu a {
+    color: black;
+    text-decoration: none;
+}
+
+.noticias {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.imgInfo {
+    height:500px;
+    width: 22%;
+    background-size: cover;
+    display: flex;
+}
+
+.noticias a {
+    color:white;
+    padding: 15px;
+    align-self: flex-end;
+    margin: 0;
+    display: block;
+}
+
+.red {
+    background-color: rgba(166, 8, 8, 0.6);
+}
+
+.blue {
+    background-color: rgba(62, 16, 145, 0.6);
+}
+
+.green {
+    background-color: rgba(20, 101, 6, 0.6);
+}
+
+.bege {
+    background-color: rgba(193, 148, 75, 0.6);
+}
